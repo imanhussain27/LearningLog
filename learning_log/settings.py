@@ -124,8 +124,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-LOGIN_URL = 'users.login'
-#LOGIN_URL= 'users:login'
+#LOGIN_URL = 'users.login'
+LOGIN_URL= 'users:login'
 
 import django_heroku
 
